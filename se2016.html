@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>August 2016 Southeastern timetable lookup - Book 5 only</title>
+<script src="routes.js">
+</script>        
+<script>
+
+function submitenter(myfield,e)
+{
+var keycode;
+if (window.event) keycode = window.event.keyCode;
+else if (e) keycode = e.which;
+else return true;
+
+if (keycode == 13)
+   {
+   lookupStation();
+   return false;
+   }
+else
+   return true;
+}
+    
+    
+    function findRoute(station1, station2, avoid, timeStart, timeEnd){
+        
+        
+    }
+    
+    
+    
+    function lookupStation(){
+        station1=document.getElementById('station1').value.toLowerCase()
+        station2=document.getElementById('station2').value.toLowerCase()
+        routeLength=routes.length
+        var routeDict={}
+        for (var i=0;i<routeLength;i++){
+            x=routes[i]
+            callLength=x.length
+            validRoute=0
+            routeStr=''
+            routeTime=''
+            for (var j=0;j<callLength;j++){
+                if (x[j].toLowerCase().indexOf(station1)!=-1 && (validRoute&32)==0){
+                    validRoute|=16  
+                    if (routeStr!=''){
+                        routeStr+=' - '+x[j]
+                    } else {
+                        routeStr=x[j]
+                    }
+                    spl=x[j].split(':')
+                    if (routeTime==''){
+                        routeTime=spl[1]
+                    }
+                }
+                if (x[j].toLowerCase().indexOf(station2)!=-1 && (validRoute&16)==16){
+                    validRoute|=32  
+
+                    routeStr+=' - '+x[j]
+
+                }
+                if (station1.replace(" ","")==""){
+                    validRoute=0
+                }
+                if (station2.replace(" ","")==""){
+                    validRoute=0
+                }
+            }
+            if (validRoute==48){
+                //console.debug(routeTime+'>>'+routeStr)
+                routeDict[routeTime]=routeStr
+            }
+            
+        }
+        keys=[]
+        for (var x in routeDict){
+            //console.debug(x)
+            keys.push(x)   
+        }
+        times=keys.sort()
+        //console.debug(times)
+        //console.debug(routeDict)
+        output=''
+        for (var x in times){
+            //console.debug(times[x])
+            //console.debug(routeDict[times[x]].replace("  "," "))
+            output+=routeDict[times[x]].replace("  "," ")+'<br>'
+        }
+        
+        
+        document.getElementById('output').innerHTML=output
+    }
+</script>
+      <script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-52689631-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+</head>
+<body>
+<h2>Southeastern August 2016 timetable - Book 5
+    
+    </h2>
+    <h3>Covering trains through Dartford to London Victoria, London Charing Cross and London Cannon Street</h3>
+<br>
+    Enter the start and end stations to see the times of trains for that route. Let me know if you spot any bugs at drta@philr.me
+    <br>
+    Note: only direct trains are shown
+    <div></div>
+
+<b>Start Station</b><br><input type="text" name="station1" id="station1" value="" maxlength="30" />
+<div></div>
+<b>End Station</b><br><input type="text" name="station2" id="station2"  value="" maxlength="30"  onKeyPress="return submitenter(this,event)" />    
+<br><input type="submit" value="Show train times between these stations" onclick="lookupStation()">
+
+<div id="output"></div>
+
+</body>
+</html>
