@@ -10,10 +10,10 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Phil Rogers
+title : phil.run
 tagline: my thoughts about lots of things
 author :
-  name : Phil Rogers
+  name : phil.run
   email : phil@philrogers.me
   twitter : philmonkey
 
@@ -102,7 +102,7 @@ JB :
   analytics :
     provider : google 
     google : 
-        tracking_id : 'UA-52689631-1'
+        tracking_id : 'UA-71735283-1'
     getclicky :
       site_id : 
     mixpanel :

@@ -14,8 +14,16 @@
   float: right; }*/
 
 /* Jekyll Bootstrap Colors */
-h1, h2, h3, h4 {
-  color: #c90062;
+h1, h2, h3 {
+  color: #000000;
+    font-family: 'Impact', fantasy;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    font-size: 160%
 }
 #footer {
   background-color: #fdcd60;

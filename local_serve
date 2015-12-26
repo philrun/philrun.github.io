@@ -1,4 +1,4 @@
 #!/bin/sh
 
-jekyll serve --watch --port 3000 --host 127.0.0.1 
+jekyll serve --watch --port 4100 --host 127.0.0.1 
 
