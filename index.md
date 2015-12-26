@@ -13,6 +13,7 @@ tagline: Some blog about running...
     	<div class="row">
         	
 					<span><a href="{{ BASE_PATH }}{{ post.url }}"><h3>{{ post.title }}</h3></a></span>&nbsp;&nbsp;<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://philrogers.me{{ BASE_PATH }}{{ post.url }}" data-via="philmonkey">Tweet</a>
+                    <br>
 					<b> {{ post.date | date_to_string }}</b>
 					
 					
