@@ -28,8 +28,13 @@ h3 {
 }
 #footer {
   background-color: #fdcd60;
+    height: 40px;
 }
 
+body {
+    
+    font-size: 150%;
+}
 
 
 /* posts index */
