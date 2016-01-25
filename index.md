@@ -11,9 +11,9 @@ tagline: my marathon running blog
     {% capture stickyX %}{{post.categories}}{% endcapture %}
     {% if stickyX == "sticky" %}
     <span><a href="{{ BASE_PATH }}{{ post.url }}"  style="text-decoration: none"><h1>{{ post.title }}</h1></a></span>
-                    
+                    <!--
 					<b>{{ post.date | date_to_string }}</b>
-					
+					-->
 					
 					<br>
                     <!--
