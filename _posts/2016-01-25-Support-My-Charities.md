@@ -12,7 +12,7 @@ summary: Welcome to my new blog about running - as I get ready for the Virgin Lo
 I'll update this page shortly...
 
 <!--
-##My Virgin Money Giving Page
+## My Virgin Money Giving Page
 
 Dig deep...support two worthy charities: Stroke Association and Special Effect
 

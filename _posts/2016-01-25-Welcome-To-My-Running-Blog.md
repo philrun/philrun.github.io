@@ -9,7 +9,7 @@ summary: Welcome to my new blog about running - as I get ready for the Virgin Lo
 
 {% include JB/setup %}
 
-##So I'm running London this year
+## So I'm running London this year
 
 Oh yes.
 
@@ -25,7 +25,7 @@ Cos I won't get in, but it's worth a go.
 
 I did in 2009, that was lucky, but again? of course not. But it's something I should try at...right?
 
-##October came...
+## October came...
 
 Those that I follow on Twitter and Facebook were talking about the Virgin London Marathon ballot...they received those sad magazines, that said they hadn't got in.
 
@@ -45,7 +45,7 @@ Oh.
 
 OH.
 
-##Got home
+## Got home
 
 A "You're In" magazine.
 
@@ -57,7 +57,7 @@ It's a prized place. IN THE BALLOT!!!
 
 Fine...there's my incentive to train properly for San Antonio (#20) then.
 
-##Training for San Antonio?
+## Training for San Antonio?
 
 LOL.
 
@@ -67,13 +67,13 @@ But I did it.
 
 The least training for any marathon I've done - Honolulu the year before was close, which I'll blog, at some point, soon.
 
-##So this blog...
+## So this blog...
 
 I'm going to use it to record my training.
 
 And also look at how that's reflected in my health... through a variety of internet connect devices. But I'm going to leave that for another blog post, as I just want to get the site up this evening
 
-##Why the rush?
+## Why the rush?
 
 After a few train related events today, and doing a 'google check' on a few key words, I realised that this site was bubbling in the top 10 for some keywords.
 
@@ -85,7 +85,7 @@ And then I got an email about train related stuff to this domain.
 
 So I'm putting it live, and you can watch it evolve
 
-##The important bit: Charity
+## The important bit: Charity
 
 As with 2009 when I got a ballot place, I'm going to run for charity this year. More notably: two charities.
 
@@ -95,7 +95,7 @@ Again, I want to write about this in a bit more detail later...but they are (and
 
 <b>Special Effect</b> - this charity does a lot to help those with disabilities be able to play video games, through a variety of customised technologies suitable for the individual needing help.
 
-##Want to donate?
+## Want to donate?
 
 Go on, you know you do.
 
@@ -113,7 +113,7 @@ Then sit back and watch as I ramp up my training over the coming weeks and month
 
 [DONATE HERE](http://uk.virginmoneygiving.com/progers)
 
-##...and then?
+## ...and then?
 
 I'll write more soon. 
 

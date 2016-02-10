@@ -9,7 +9,7 @@ summary: My first training run for the Virgin London Marathon!
 
 {% include JB/setup %}
 
-##I did it
+## I did it
 
 I got out, and had a little run...
 
