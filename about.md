@@ -9,13 +9,13 @@ group: navigation
 
 
 
-###Contact me
+### Contact me
 
 Twitter: [@philmonkey](http://www.twitter.com/philmonkey)
 
 E-mail: [london@phil.run](mailto:london@phil.run)
 
-###Disclaimer
+### Disclaimer
 
 Obviously, I need to point out that what I post on this site are my own thoughts, and do not reflect the thoughts of my employer, or any other affiliations I may have - unless otherwise stated.
 
